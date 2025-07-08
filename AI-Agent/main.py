@@ -8,6 +8,7 @@ from openai import OpenAI
 import numpy as np
 from langchain_openai import OpenAIEmbeddings
 import os
+import time
 
 load_dotenv()
 
@@ -32,12 +33,13 @@ def main():
             break
         
         print("\nAI: " , end = "")
-        for chunk in agent_executor.stream(
-            {"messages": [HumanMessage(content=user_input)]}
-        ):
+        for chunk in agent_executor.stream({"messages": [HumanMessage(content=user_input)]}):
             if "agent" in chunk and "messages" in chunk["agent"]:
                 for message in chunk["agent"]["messages"]:
-                    print(message.content, end="")
+                    words = message.content.split()
+                    for word in words:
+                        print(word, end=" ", flush=True)
+                        time.sleep(0.05)  # Adjust delay here
         print()
 
 if __name__ == "__main__":
