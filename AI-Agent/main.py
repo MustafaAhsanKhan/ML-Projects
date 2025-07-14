@@ -39,7 +39,7 @@ def main():
                     words = message.content.split()
                     for word in words:
                         print(word, end=" ", flush=True)
-                        time.sleep(0.05)  # Adjust delay here
+                        time.sleep(0.05)  # Printing delay # Adjust delay here
         print()
 
 if __name__ == "__main__":
