@@ -1,0 +1,30 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! Need any assistance?"]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["admission process", "how to apply", "apply for admission"],
+      "responses": ["To apply, visit our website and fill out the application form."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["what courses are offered", "available programs", "majors"],
+      "responses": ["We offer Computer Science, Electrical Engineering, Business and more."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fee structure", "tuition fees", "how much is the fee"],
+      "responses": ["You can find our fee structure on the official university website."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "talk to you later"],
+      "responses": ["Goodbye! Have a great day!", "See you later!"]
+    }
+  ],
+  "fallback": "Sorry, I didn’t understand that. Can you please rephrase?"
+}
