@@ -96,4 +96,4 @@ Issues and pull requests welcome.
 - Streamlit
 - PyPDF2
 - OpenRouter / DeepSeek model providers
-- OpenAI Python SDK (for
+- OpenAI Python SDK (for compatible API interface)

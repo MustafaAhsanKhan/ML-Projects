@@ -79,4 +79,4 @@ Issues and PRs welcome.
 ## Acknowledgements
 - LangChain / LangGraph
 - OpenRouter
--
+- DeepSeek model providers

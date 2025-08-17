@@ -94,4 +94,4 @@ MIT (see root LICENSE if present).
 PRs and issues welcome.
 
 ## Acknowledgements
--
+- NLTK for tokenization

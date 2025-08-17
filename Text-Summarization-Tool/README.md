@@ -95,4 +95,4 @@ PRs and issues welcome.
 
 ## Acknowledgements
 - Sumy for summarization algorithms
-- NLTK
+- NLTK for tokenization and stopwords
